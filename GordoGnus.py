@@ -17,7 +17,7 @@ async def main():
         print ("segundos:", tiempo[0], "minutos:", tiempo[1]," horas:", tiempo[2])
         await asyncio.sleep(1)
         if msvcrt.kbhit():
-            if msvcrt.getch().decode('utf-8').lower() == 'q':
+            if msvcrt.getch().decode('utf-8').lower() == 'Esc':
                 break
 
 

@@ -1,9 +1,9 @@
 import asyncio
-import Gordoctavio
+import GordoGnus
 
 def opcion1():
     print("hola soy la opcion1")
-    asyncio.run(Gordoctavio.main())
+    asyncio.run(GordoGnus.main())
 
 def opcion2():
     print("hola soy la opcion2")
