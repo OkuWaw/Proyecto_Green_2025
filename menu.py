@@ -1,7 +1,9 @@
 import asyncio
+import datetime
 from funciones import Gordoctavio
 from funciones import alarma_fn
 from funciones import CH
+from funciones import Calendario
 
 tiempo =[0, 0, 0]
 
@@ -21,6 +23,8 @@ def opcion3():
 
 def opcion4():
     print("hola soy la opcion4")
+    Calendario.read_time()
+    Calendario.semana()
     pressbtn = input("")
 
 
